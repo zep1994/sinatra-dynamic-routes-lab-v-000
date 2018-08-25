@@ -35,11 +35,11 @@ class App < Sinatra::Base
       case :operation
       when "add"
         "#{@number1 + @number2}"
-      when "add"
+      when "subtract"
         "#{@number1 - @number2}"
-      when "add"
+      when "multply"
         "#{@number1 * @number2}"
-      when "add"
-        "#{@number1  @number2}"
+      when "divide"
+        "#{@number1 / @number2}"
   end
 end
