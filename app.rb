@@ -8,5 +8,7 @@ class App < Sinatra::Base
     "#{@user_name}"
   end
   
-  
+  get '/square/:number' do
+    
+  end
 end
